@@ -7,7 +7,7 @@
 
 Name:           gnome-shell-extension-system-monitor-applet
 Version:        0
-Release:        1.20171005git%{shortcommit}%{?dist}
+Release:        0.1.20171005git%{shortcommit}%{?dist}
 Summary:        A Gnome shell system monitor extension
 
 # The entire source code is GPLv3+ except convenience.js, which is BSD
@@ -57,7 +57,7 @@ popd
 %{_datadir}/gnome-shell/extensions/%{uuid}
 
 %changelog
-* Sat Oct 07 2017 Nicolas Viéville <nicolas.vieville@univ-valenciennes.fr> - 0-1.20171005git61b0a60
+* Sat Oct 07 2017 Nicolas Viéville <nicolas.vieville@univ-valenciennes.fr> - 0-0.1.20171005git61b0a60
 - Spec file cleanup
 
 * Thu Oct 05 2017 Nicolas Viéville <nicolas.vieville@univ-valenciennes.fr> - 0.0.1-0.1.20171005git61b0a60
